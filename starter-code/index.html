@@ -10,64 +10,84 @@
     <header>
       <nav>
         <div class="masthead">
-          <h1></h1>
-          <img src="./images/logo.svg" alt="" />
-          <p>Local Cuisine Delivered</p>
-        </div>
-
-        <div>
-          <a class="menu" href="javascript:void 0;"
-            >Menu <img src="./images/hamburger.svg" alt="" />
-          </a>
-          <a class="panier" href="javascript:void 0;"
-            >Panier <img src="./images/cart.svg" alt="" />
-          </a>
+          <div><img src="./images/logo.svg" alt="" />
+            <p>Local Cuisine Delivered</p></div>
+          <div class="menuPanier">
+            <a class="menu"><img src="./images/hamburger.svg" alt="" /></a>
+            <a class="panier"><img src="./images/cart.svg" alt="" /></a>
         </div>
       </nav>
 
-      <h2>Order from restaurants around you</h2>
+<!--         
+        ███╗   ███╗███████╗███╗   ██╗██╗   ██╗    ████████╗ ██████╗ ██████╗     ███████╗██╗███╗   ██╗██╗
+        ████╗ ████║██╔════╝████╗  ██║██║   ██║    ╚══██╔══╝██╔═══██╗██╔══██╗    ██╔════╝██║████╗  ██║██║
+        ██╔████╔██║█████╗  ██╔██╗ ██║██║   ██║       ██║   ██║   ██║██████╔╝    █████╗  ██║██╔██╗ ██║██║
+        ██║╚██╔╝██║██╔══╝  ██║╚██╗██║██║   ██║       ██║   ██║   ██║██╔═══╝     ██╔══╝  ██║██║╚██╗██║██║
+        ██║ ╚═╝ ██║███████╗██║ ╚████║╚██████╔╝       ██║   ╚██████╔╝██║         ██║     ██║██║ ╚████║██║
+        ╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝        ╚═╝    ╚═════╝ ╚═╝         ╚═╝     ╚═╝╚═╝  ╚═══╝╚═╝
+                                                                                                         -->
+
+
+      <div class="fontImg">
+        <img src="./images/couleur-gris-cmjn-imprimerie.jpg" alt="">
+      </div>
       <form action="javascript:void 0;">
-        <label>
-          Enter your address
-          <input type="text" name="address" />
-        </label>
-
-        <label>
-          What would you like
-          <input type="text" name="foodtype" />
-        </label>
-
-        <p>
-          <button type="submit">Find a food</button>
-        </p>
+        <div class="green">
+          <h2>Order from restaurants around you</h2>
+        <div class="input">
+          
+          <div>
+            <label>
+              <input type="text" name="address" placeholder="Enter your address"/>
+            </label>
+          </div>
+  
+          <div>
+            <label>
+              <input type="text" name="foodtype" placeholder="What would you like ?"/>
+            </label>
+            <button class="btnFood" type="submit">Find a food</button>
+          </div>
+        </div>
+        </div>
       </form>
     </header>
+          <!-- 
+          ██╗  ██╗███████╗ █████╗ ██████╗ ███████╗██████╗     ███████╗██╗███╗   ██╗██╗
+          ██║  ██║██╔════╝██╔══██╗██╔══██╗██╔════╝██╔══██╗    ██╔════╝██║████╗  ██║██║
+          ███████║█████╗  ███████║██║  ██║█████╗  ██████╔╝    █████╗  ██║██╔██╗ ██║██║
+          ██╔══██║██╔══╝  ██╔══██║██║  ██║██╔══╝  ██╔══██╗    ██╔══╝  ██║██║╚██╗██║██║
+          ██║  ██║███████╗██║  ██║██████╔╝███████╗██║  ██║    ██║     ██║██║ ╚████║██║
+          ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═╝  ╚═══╝╚═╝ -->
+                                                                            
 
     <section>
       <h2>How it works</h2>
-
       <div>
-        <img src="./images/map.png" alt="" />
-        <h2>1. Search</h2>
-        <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
+        <div>
+          <img src="./images/map.png" alt="" />
+          <h2>1. Search</h2>
+          <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
+        </div>
+  
+        <div>
+          <img src="./images/clipboard.png" alt="" />
+          <h2>2. Order</h2>
+          <p>
+            Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut
+            libero venenatis faucibus.
+          </p>
+        </div>
+        <div>
+          <img src="./images/bag.png" alt="" />
+          <h2>3. Eat</h2>
+          <p>
+            Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut
+            libero venenatis faucibus.
+          </p>
+        </div>
       </div>
-
-      <div>
-        <img src="./images/clipboard.png" alt="" />
-        <h2>2. Order</h2>
-        <p>
-          Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut
-          libero venenatis faucibus.
-        </p>
-      </div>
-      <div>
-        <img src="./images/bag.png" alt="" />
-        <h2>3. Eat</h2>
-        <p>
-          Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut
-          libero venenatis faucibus.
-        </p>
-      </div>
+      
     </section>
 
     <section>

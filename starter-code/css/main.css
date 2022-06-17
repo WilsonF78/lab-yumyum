@@ -1,9 +1,22 @@
 *, :before, :after {box-sizing:border-box;}
+*{
+    margin: 0;
+    padding: 0;
+    }
 
 img {max-width: 100%;max-height:100%; 
 }
 
+nav{
+    height: 90px;
+}
+
+header{
+    height: 912px; 
+}
+
 .masthead img{
+    padding-top: 10px;
     padding-left: 20px;
     width: 60%;
     height: 60%;
@@ -15,28 +28,55 @@ img {max-width: 100%;max-height:100%;
     margin-top: 0;
 }
 
+.menuPanier{
+    text-align: right;
+    transform:translateY(-80px);
+    padding-right: 20px;
+    filter: opacity(0.4) 
+}
+
 .menu img{
-width: 10%;
-height: 10%;
+    transform:translateX(15px);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 17%;
+    height: 17%;
 }
 
 .panier img{
-    width: 10%;
-    height: 10%;
+   
+    padding-bottom: 24px;
+    padding-top: 20px;
+    width: 15%;
+    height: 15%;
 }
 
+input{
+    text-align: center;
+    height:80px;
+    width:90%;
+    border-radius: 5px;
+    font-size: 20px;
+    border: transparent;   
+    margin-bottom: 1px; 
+}    
 
+.fontImg img{
+    height: 361px;
+    width: 412px;
+}
 
+.fontImg{
+    height: 358px;
+    width: 412px;
+}
 
-
-
-
-
-
-
-
-
-
+.green{
+    padding-top: 0;
+    width: 412px;
+    height: 467px;
+    background: linear-gradient(rgb(192,218,56), rgb(116,204,82));
+}
 
 .stars{
     height: 24px;
@@ -47,3 +87,36 @@ height: 10%;
     display: inline;
     height: 24px;
 }
+
+form{
+    text-align: center;
+}
+
+form h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form button{
+    background-color: rgb(250,115,68);
+    color: white;
+    border-radius: 5px;
+    border: transparent;  
+    height:55px;
+    width:45%;
+    text-transform: uppercase;
+    font-size: 100%;
+    margin-top: 30px;
+    margin-right: 184px;  
+}
+/* 
+██████╗ ██████╗ ███████╗███╗   ███╗██╗██████╗ ███████╗    ██████╗  █████╗  ██████╗ ███████╗    ███████╗██╗███╗   ██╗██╗    
+██╔══██╗██╔══██╗██╔════╝████╗ ████║██║██╔══██╗██╔════╝    ██╔══██╗██╔══██╗██╔════╝ ██╔════╝    ██╔════╝██║████╗  ██║██║    
+██████╔╝██████╔╝█████╗  ██╔████╔██║██║██████╔╝█████╗      ██████╔╝███████║██║  ███╗█████╗      █████╗  ██║██╔██╗ ██║██║    
+██╔═══╝ ██╔══██╗██╔══╝  ██║╚██╔╝██║██║██╔══██╗██╔══╝      ██╔═══╝ ██╔══██║██║   ██║██╔══╝      ██╔══╝  ██║██║╚██╗██║██║    
+██║     ██║  ██║███████╗██║ ╚═╝ ██║██║██║  ██║███████╗    ██║     ██║  ██║╚██████╔╝███████╗    ██║     ██║██║ ╚████║██║    
+╚═╝     ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝╚═╝  ╚═╝╚══════╝    ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚══════╝    ╚═╝     ╚═╝╚═╝  ╚═══╝╚═╝     */
+                                                                                                                           
